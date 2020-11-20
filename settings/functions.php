@@ -59,9 +59,6 @@
             $getLastID = substr(fgets($openFile), 1, 4);
             /*if $count is less than or equal to the last $posID add one
             else add the value together and return it as the formated string*/
-            if($getLastID == NULL){
-                return "P0000";
-            }
 
             if($count <= intval($getLastID)){
                 $count++;
