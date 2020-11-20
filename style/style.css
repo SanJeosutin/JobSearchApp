@@ -1,0 +1,129 @@
+/*********************************************
+*? NAME        : SanJeosutin
+*? TITLE       : style.css
+*? DESCRIPTION : Main style for the web application.
+*? CREATED ON  : 20-08-2020
+*? EDITED ON   : 03-01-2020
+*********************************************/
+
+/*DEFINE COMMON VARIABLE*/
+:root{
+    --Color_Background: #0B132B;
+    --Color_Font: #FFFFFF;
+    --Color_Button: #5BC0BE;
+
+    /*USED AS COLOUR REFERENCE*/
+    --ColRef1: #0B132B;
+    --ColRef2: #1C2541;
+    --ColRef3: #3A506B;
+    --ColRef4: #5BC0BE;
+    --ColRef5: #FFFFFF;
+}
+/*GENERAL STYLING*/
+
+body{
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #FFFFFF, #5BC0BE);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    margin: 84px 22% 10px 37%;
+}
+.content{
+    color: var(--Color_Font);
+
+    background-image: linear-gradient(to bottom left, #0B132B, #1C2541);
+    background-color: var(--Color_Background);
+    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+    margin: 0px 22% 0% 23%;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.content .display{
+    text-align: left;
+}
+
+table, tr, th, td{
+    color: var(--Color_Font);
+
+    text-align: left;
+    padding: 3px;
+}
+/*USED IN postjobform.php*/
+form{
+    text-align: left;
+    margin: 0px 15px;
+}
+
+form input[type='text'], 
+form input[type='date'],
+form input[type='checkbox'], 
+form input[type='radio'],
+form select, form textarea{
+    margin-left: 20px;
+}
+
+form td{
+    padding: 0px 28px;
+}
+
+/*USED IN searchjobprocess.php*/
+.result{
+    padding: 5px 10px 7px 10px;
+    text-align: left;
+}
+
+.result .title{
+    font-size: 2em;
+}
+
+.searchJob{
+    padding: 0px 2%;
+}
+
+
+/*USED FOR DISPLAYING ERROR*/
+.errorBox ul, .errorBox h4{
+    text-align: left;
+    margin-left: 12px;
+}
+
+.navButtons{
+    margin: 2px 22% 14% 23%;
+    text-align: center;
+}
+
+.navButtons a, .button{
+    display: inline-block;
+    width: 12%;
+    margin: 0px 12px;
+    padding: 3px;
+    background: var(--Color_Button);
+    border: 1px solid #0B132B;
+    border-radius: 7px;
+}
+
+.navButtons a:first-child{
+    float: left;
+}
+
+.navButtons a:nth-child(2){
+    width: 20%;
+}
+
+.navButtons a:last-child{
+    float: right;
+}
+
+.notice{
+    color: yellow;
+}
+
+img{
+    width: 100%;
+}
