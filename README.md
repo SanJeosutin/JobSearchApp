@@ -7,7 +7,7 @@ Simple Job Search Web Application build in PHP
 * Error checking
 * Search Jobs
 
-[DEMO](https://jobsearchappdemo.000webhostapp.com/)
+[DEMO](https://sanjeosutinprojects.000webhostapp.com/JobSearchApp/)
 
 nb\*
 *I'm not responsible if you got caught copying my work nor will I answer any questions regarding this assignment.*
